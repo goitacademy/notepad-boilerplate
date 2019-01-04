@@ -7,5 +7,5 @@
 Каждая ступень развития проекта находится в отдельной ветке со своими инструкциями по ссылкам ниже.
 
 - [Работаем с DOM и событиями](https://github.com/goitacademy/notepad-boilerplate/tree/base)
-- [Переходим на Webpack и модули](intermediate)
-- [Подключаем плагины и шаблонизацию](final)
+- [Переходим на Webpack и модули](https://github.com/goitacademy/notepad-boilerplate/tree/intermediate)
+- [Подключаем плагины и шаблонизацию](https://github.com/goitacademy/notepad-boilerplate/tree/final)
