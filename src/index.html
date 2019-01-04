@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Notepad</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="logo">
+        <a href="/" class="logo__link">
+          <img
+            class="logo__image"
+            src="./images/logo.svg"
+            alt="alt"
+            width="40"
+          />
+          Notepad
+        </a>
+      </h1>
+
+      <form class="search-form">
+        <input type="text" class="search-form__input" placeholder="Search..." />
+        <i class="material-icons search-form__icon">search</i>
+      </form>
+    </header>
+
+    <main class="container">
+      <form class="note-editor">
+        <label class="note-editor__label">
+          <span class="note-editor__field-name">Title</span>
+          <input
+            type="text"
+            class="note-editor__input"
+            name="note_title"
+            autocomplete="off"
+          />
+        </label>
+        <label class="note-editor__label">
+          <span class="note-editor__field-name">Body</span>
+          <textarea
+            class="note-editor__input"
+            name="note_body"
+            rows="6"
+          ></textarea>
+        </label>
+        <button class="button button--wide" type="submit">Save</button>
+      </form>
+
+      <ul class="note-list"></ul>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
