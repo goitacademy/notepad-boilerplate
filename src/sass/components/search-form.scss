@@ -1,0 +1,41 @@
+.search-form {
+  position: relative;
+}
+
+.search-form__input {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 220px;
+  font: inherit;
+  border: 0;
+  padding: 8px 32px 8px 8px;
+  color: #fff;
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  outline: none;
+}
+
+.search-form__icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+}
+
+.search-form__input:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.search-form__input:focus {
+  width: 270px;
+}
+
+.search-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,15 @@
+.page-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+  margin-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #2196f3;
+  z-index: 999;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}

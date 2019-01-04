@@ -1,0 +1,18 @@
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note-list__item {
+  flex: 0 0 calc(33.3333% - 16px);
+  min-width: 320px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.note-list__item:not(:nth-child(-n + 3)) {
+  margin-top: 16px;
+}

@@ -1,0 +1,44 @@
+.note-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  max-width: 600px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.note-editor__label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #6e636b;
+  margin-bottom: 16px;
+}
+
+.note-editor__field-name {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: currentColor;
+}
+
+.note-editor__input {
+  display: inline-block;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 2px;
+  font: inherit;
+  padding: 8px;
+  color: currentColor;
+  outline: none;
+}
+
+.note-editor__input:focus {
+  border-color: #2196f3;
+}
