@@ -1,0 +1,26 @@
+.logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #fff;
+  font-size: 26px;
+}
+
+.logo__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.logo__link:hover,
+.logo__link:focus {
+  transform: scale(1.05);
+}
+
+.logo__image {
+  margin-right: 4px;
+}

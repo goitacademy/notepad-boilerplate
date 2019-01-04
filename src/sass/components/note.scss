@@ -1,0 +1,46 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.note__content {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.note__title {
+  color: #6e636b;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.note__body {
+  color: #7c7879;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.note__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-top: 1px solid #d2cccd;
+}
+
+.note__section {
+  display: flex;
+  align-items: center;
+}
+
+.note__priority {
+  color: #6e636b;
+  font-weight: 500;
+  margin-left: 16px;
+  font-size: 18px;
+}
