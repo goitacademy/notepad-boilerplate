@@ -25,6 +25,13 @@
   }
 }
 
+.action--primary {
+  background-color: #e10050;
+  &:hover {
+    background-color: #9d0038;
+  }
+}
+
 .action__icon {
   display: block;
   width: 40px;
