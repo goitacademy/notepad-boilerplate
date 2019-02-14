@@ -19,7 +19,6 @@ module.exports = env => ({
     publicPath: '/',
     hot: false,
     historyApiFallback: true,
-    open: false,
     noInfo: true,
     quiet: true,
     stats: 'errors-only',
