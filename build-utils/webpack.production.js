@@ -14,15 +14,15 @@ module.exports = env => ({
           MiniCssExtractPlugin.loader,
           'css-loader',
           'postcss-loader',
-          'sass-loader',
-        ],
+          'sass-loader'
+        ]
       },
       {
         test: /\.css$/,
         exclude: /node_modules/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
-      },
-    ],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -33,8 +33,8 @@ module.exports = env => ({
         removeRedundantAttributes: true,
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
-        useShortDoctype: true,
-      },
+        useShortDoctype: true
+      }
     }),
     new MiniCssExtractPlugin({ filename: 'styles.css' }),
     new HtmlWebpackPlugin({
@@ -45,9 +45,9 @@ module.exports = env => ({
         removeRedundantAttributes: true,
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
-        useShortDoctype: true,
-      },
+        useShortDoctype: true
+      }
     }),
-    new OptimizeCssAssetsPlugin({}),
-  ],
+    new OptimizeCssAssetsPlugin({})
+  ]
 });
