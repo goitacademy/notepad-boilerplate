@@ -32,7 +32,7 @@ module.exports = ({ mode = 'production' }) =>
               {
                 loader: 'url-loader',
                 options: {
-                  name: '[path]/[name].[ext]',
+                  name: 'images/[name].[ext]',
                   limit: 5000
                 }
               }
